@@ -42,8 +42,8 @@ title: Home
           <p class="title"><b>{{ event.title }}</b><br>{{ event.date }}<br>{{ event.summary }}</p>
 
            <div class="event-buttons">
-            {% if event.zoom %}
-              <a class="button" href="{{ event.zoom }}" target="_blank">Zoom</a>
+            {% if event.signup %}
+              <a class="button" href="{{ event.zoom }}" target="_blank">Sign Up to Attend</a>
             {% endif %}
 
             {% if event.slides %}
