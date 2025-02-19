@@ -30,43 +30,43 @@ title: Home
   <h4>Events</h4>
 
   <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Upcoming</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>
+    <li><div class="button active" data-ref="#events-selected">Upcoming</div></li>
+    <li><div class="button" data-ref="#events-all">All</div></li>
   </ul>
 
   <div class="tab-content">
-    <div class="tab-pane active" id="papers-selected">
-      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
-      {% for paper in selected_papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.attendees }}</p>
-          <p>{{ paper.date }}</p>
-          <p>{{ paper.summary }}</p>
+    <div class="tab-pane active" id="events-selected">
+      {% assign selected_events = site.data.events.events | where: "selected", "y" %}
+      {% for event in selected_events %}
+        <div class="event">
+          <p class="title"><b>{{ event.title }}</b></p>
+          <p>{{ event.attendees }}</p>
+          <p>{{ event.date }}</p>
+          <p>{{ event.summary }}</p>
           
-           <div class="paper-buttons">
-            {% if paper.zoom %}
-              <a class="button" href="{{ paper.zoom }}" target="_blank">Zoom</a>
+           <div class="event-buttons">
+            {% if event.zoom %}
+              <a class="button" href="{{ event.zoom }}" target="_blank">Zoom</a>
             {% endif %}
 
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% if event.slides %}
+              <a class="button" href="{{ event.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
             {% endif %}
 
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% if event.poster %}
+              <a class="button" href="{{ event.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
             {% endif %}
 
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% if event.video %}
+              <a class="button" href="{{ event.video }}" target="_blank">Video</a>
             {% endif %}
 
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% if event.code %}
+              <a class="button" href="{{ event.code }}" target="_blank">Code</a>
             {% endif %}
 
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% if event.data %}
+              <a class="button" href="{{ event.data }}" target="_blank">Data</a>
             {% endif %}
 
           </div>
@@ -74,37 +74,37 @@ title: Home
       {% endfor %}
     </div>
 
-    <div class="tab-pane" id="papers-all">
-      {% for paper in site.data.publications.papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.attendees }}</p>
-          <p>{{ paper.date }}</p>
-          <p>{{ paper.summary }}</p>
+    <div class="tab-pane" id="events-all">
+      {% for event in site.data.publications.events %}
+        <div class="event">
+          <p class="title"><b>{{ event.title }}</b></p>
+          <p>{{ event.attendees }}</p>
+          <p>{{ event.date }}</p>
+          <p>{{ event.summary }}</p>
           
-           <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+           <div class="event-buttons">
+            {% if event.event_pdf %}
+              <a class="button" href="{{ event.event_pdf | prepend: site.baseurl }}" target="_blank">event</a>
             {% endif %}
 
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% if event.slides %}
+              <a class="button" href="{{ event.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
             {% endif %}
 
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% if event.poster %}
+              <a class="button" href="{{ event.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
             {% endif %}
 
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% if event.video %}
+              <a class="button" href="{{ event.video }}" target="_blank">Video</a>
             {% endif %}
 
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% if event.code %}
+              <a class="button" href="{{ event.code }}" target="_blank">Code</a>
             {% endif %}
 
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% if event.data %}
+              <a class="button" href="{{ event.data }}" target="_blank">Data</a>
             {% endif %}
 
           </div>
