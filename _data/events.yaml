@@ -7,3 +7,20 @@ events:
     zoom: "https://uchicago.zoom.us/j/98485102650?pwd=XQBTclucF2NLTcYe1akJuFf28argpI.1"
     selected: y
 
+  - title: "Is PhD Right for Me?"
+    attendees: ""
+    summary: "This panel will be aimed at prospective applicants for the 2025-2026 PhD admission cycle, and will be a chance for prospective applicants to ask current PhD students any questions regarding the PhD process, applying, selecting a research area, etc."
+    date: "April"
+    selected: y
+
+  - title: "General Purpose Office Hours"
+    attendees: ""
+    summary: "These office hours are a chance for prospective applicants to ask questions 1-1 with a PhD student."
+    date: "April"
+    selected: y
+
+  - title: "Application Support Program - Mentee Application Opens"
+    attendees: ""
+    summary: "Mentee applications for our Graduate Application Support Program will open. This program enables applicants to get 1-1 application feedback and mentorship from a current PhD student."
+    date: "End of August"
+    selected: y
