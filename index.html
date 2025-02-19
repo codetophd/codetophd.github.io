@@ -39,11 +39,8 @@ title: Home
       {% assign selected_events = site.data.events.events | where: "selected", "y" %}
       {% for event in selected_events %}
         <div class="event">
-          <p class="title"><b>{{ event.title }}</b></p>
-<!--           <p>{{ event.attendees }}</p> -->
-          <p>{{ event.date }}</p>
-          <p>{{ event.summary }}</p>
-          
+          <p class="title"><b>{{ event.title }}</b><br>{{ event.attendees }}<br>{{ event.date }}<br>{{ event.summary }}</p>
+
            <div class="event-buttons">
             {% if event.zoom %}
               <a class="button" href="{{ event.zoom }}" target="_blank">Zoom</a>
