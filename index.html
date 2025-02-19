@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 <!-- ========== BIO ========== -->
-<div class="docs-section" id="bio">
+<div class="docs-section" id="about">
   <h4>About</h4>
   <p>
   Code To PhD is a completely student-run volunteer initiative of Computer Science PhD students across the U.S. 
@@ -25,8 +25,8 @@ title: Home
   </p> 
 </div>
 
-<!-- ========== PUBLICATIONS ========== -->
-<div class="docs-section" id="publications">
+<!-- ========== EVENTS ========== -->
+<div class="docs-section" id="events">
   <h4>Events</h4>
 
   <ul class="tab-nav">
@@ -75,7 +75,7 @@ title: Home
     </div>
 
     <div class="tab-pane" id="events-all">
-      {% for event in site.data.publications.events %}
+      {% for event in site.data.events.events %}
         <div class="event">
           <p class="title"><b>{{ event.title }}</b></p>
           <p>{{ event.attendees }}</p>
@@ -124,7 +124,7 @@ title: Home
   </p> 
 </div>
 
-<div class="docs-section" id="prospective-mentors">  
+<div class="docs-section" id="get-involved">  
   <h4>Get Involved</h4>
   <p>
   We are always recruiting volunteers!
