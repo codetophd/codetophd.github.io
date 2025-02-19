@@ -62,11 +62,12 @@ title: Home
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
           <p>{{ paper.attendees }}</p>
+          <p>{{ paper.date }}</p>
           <p><i>{{ paper.summary }}</i></p>
           
            <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% if paper.zoom %}
+              <a class="button" href="{{ paper.zoom }}" target="_blank">Zoom</a>
             {% endif %}
 
             {% if paper.slides %}
