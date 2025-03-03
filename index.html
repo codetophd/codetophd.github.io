@@ -65,7 +65,7 @@ title: Home
       {% endfor %}
     </div>
     
-    <div class="tab-pane active" id="events-past">
+    <div class="tab-pane" id="events-past">
       {% assign selected_events = site.data.events.events | where: "upcoming", "n" %}
       {% for event in selected_events %}
         <div class="event">
