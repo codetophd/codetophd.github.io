@@ -30,13 +30,14 @@ title: Home
   <h4>Events</h4>
 
   <ul class="tab-nav">
-    <li><div class="button active" data-ref="#events-selected">Upcoming</div></li>
+    <li><div class="button active" data-ref="#events-upcoming">Upcoming</div></li>
+    <li><div class="button" data-ref="#events-past">Past</div></li>
     <li><div class="button" data-ref="#events-all">All</div></li>
   </ul>
 
   <div class="tab-content">
-    <div class="tab-pane active" id="events-selected">
-      {% assign selected_events = site.data.events.events | where: "selected", "y" %}
+    <div class="tab-pane active" id="events-upcoming">
+      {% assign selected_events = site.data.events.events | where: "upcoming", "y" %}
       {% for event in selected_events %}
         <div class="event">
           <p class="title"><b>{{ event.title }}</b><br>{{ event.date }}<br>{{ event.summary }}</p>
@@ -50,20 +51,12 @@ title: Home
               <a class="button" href="{{ event.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
             {% endif %}
 
-            {% if event.poster %}
-              <a class="button" href="{{ event.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-
             {% if event.video %}
               <a class="button" href="{{ event.video }}" target="_blank">Video</a>
             {% endif %}
 
-            {% if event.code %}
-              <a class="button" href="{{ event.code }}" target="_blank">Code</a>
-            {% endif %}
-
-            {% if event.data %}
-              <a class="button" href="{{ event.data }}" target="_blank">Data</a>
+            {% if event.notes %}
+              <a class="button" href="{{ event.notes }}" target="_blank">Event Notes</a>
             {% endif %}
 
              <hr style="border-top: dotted 1px; background-color: transparent" />
@@ -71,37 +64,51 @@ title: Home
         </div>
       {% endfor %}
     </div>
-
-    <div class="tab-pane" id="events-all">
-      {% for event in site.data.events.events %}
+    
+    <div class="tab-pane active" id="events-past">
+      {% assign selected_events = site.data.events.events | where: "upcoming", "n" %}
+      {% for event in selected_events %}
         <div class="event">
           <p class="title"><b>{{ event.title }}</b><br>{{ event.date }}<br>{{ event.summary }}</p>
-          
+
            <div class="event-buttons">
-            {% if event.event_pdf %}
-              <a class="button" href="{{ event.event_pdf | prepend: site.baseurl }}" target="_blank">event</a>
-            {% endif %}
 
             {% if event.slides %}
               <a class="button" href="{{ event.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if event.poster %}
-              <a class="button" href="{{ event.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
             {% endif %}
 
             {% if event.video %}
               <a class="button" href="{{ event.video }}" target="_blank">Video</a>
             {% endif %}
 
-            {% if event.code %}
-              <a class="button" href="{{ event.code }}" target="_blank">Code</a>
+            {% if event.notes %}
+              <a class="button" href="{{ event.notes }}" target="_blank">Event Notes</a>
             {% endif %}
 
-            {% if event.data %}
-              <a class="button" href="{{ event.data }}" target="_blank">Data</a>
+             <hr style="border-top: dotted 1px; background-color: transparent" />
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    
+    <div class="tab-pane" id="events-all">
+      {% for event in site.data.events.events %}
+        <div class="event">
+          <p class="title"><b>{{ event.title }}</b><br>{{ event.date }}<br>{{ event.summary }}</p>
+
+           <div class="event-buttons">
+            {% if event.slides %}
+              <a class="button" href="{{ event.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
             {% endif %}
 
+            {% if event.video %}
+              <a class="button" href="{{ event.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if event.notes %}
+              <a class="button" href="{{ event.notes }}" target="_blank">Event Notes</a>
+            {% endif %}
+          
              <hr style="border-top: dotted 1px; background-color: transparent" />
           </div>
         </div>
