@@ -6,22 +6,22 @@ events:
     date: "March 2, 1-2pm Central Time"
     notes: "https://docs.google.com/document/d/1y9cVIgX_CeOXv4xtj6wA-dZE8xuyPgoEyhyKsqUHUFg/edit?usp=sharing"
     signup: "https://forms.gle/v3Udjnb8oYYvdxvi7"
-    selected: n
+    upcoming: n
 
   - title: "Is PhD Right for Me?"
     attendees: ""
     summary: "This panel will be aimed at prospective applicants for the 2025-2026 PhD admission cycle, and will be a chance for prospective applicants to ask current PhD students any questions regarding the PhD process, applying, selecting a research area, etc."
     date: "April"
-    selected: y
+    upcoming: y
 
   - title: "General Purpose Office Hours"
     attendees: ""
     summary: "These office hours are a chance for prospective applicants to ask questions 1-1 with a PhD student."
     date: "April"
-    selected: y
+    upcoming: y
 
   - title: "Application Support Program - Mentee Application Opens"
     attendees: ""
     summary: "Mentee applications for our Graduate Application Support Program will open. This program enables applicants to get 1-1 application feedback and mentorship from a current PhD student."
     date: "End of August"
-    selected: y
+    upcoming: y
