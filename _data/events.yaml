@@ -4,8 +4,9 @@ events:
     attendees: ""
     summary: "This panel will be an opportunity for recently admitted PhD students to ask questions regarding selecting advisors, visiting programs, and all things related to admitted students visit days!"
     date: "March 2, 1-2pm Central Time"
+    notes: "https://docs.google.com/document/d/1y9cVIgX_CeOXv4xtj6wA-dZE8xuyPgoEyhyKsqUHUFg/edit?usp=sharing"
     signup: "https://forms.gle/v3Udjnb8oYYvdxvi7"
-    selected: y
+    selected: n
 
   - title: "Is PhD Right for Me?"
     attendees: ""
