@@ -14,10 +14,10 @@ events:
     date: "April"
     upcoming: y
 
-  - title: "General Purpose Office Hours"
+  - title: "General Purpose Office Hours - Monthly"
     attendees: ""
-    summary: "These office hours are a chance for prospective applicants to ask questions 1-1 with a PhD student."
-    date: "April"
+    summary: "These monthly office hours can be a chance for prospective students and applicants to ask questions, or for advice, about all things PhD, giving students more opportunities to ask questions more pertinent to their own experiences and concerns."
+    date: "First Week of April"
     upcoming: y
 
   - title: "Application Support Program - Mentee Application Opens"
