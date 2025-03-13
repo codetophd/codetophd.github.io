@@ -8,10 +8,16 @@ events:
     signup: "https://forms.gle/v3Udjnb8oYYvdxvi7"
     upcoming: n
 
+  - title: "Gaining Research Experience"
+    attendees: ""
+    summary: "This panel will be aimed at undergraduates and prospective PhD applicants, who are curious about how to get research assistantships/internships/REUs, how current PhD students got to where they're at now, etc."
+    date: "April"
+    upcoming: y
+
   - title: "Is PhD Right for Me?"
     attendees: ""
     summary: "This panel will be aimed at prospective applicants for the 2025-2026 PhD admission cycle, and will be a chance for prospective applicants to ask current PhD students any questions regarding the PhD process, applying, selecting a research area, etc."
-    date: "April"
+    date: "May/Summer"
     upcoming: y
 
   - title: "General Purpose Office Hours - Monthly"
