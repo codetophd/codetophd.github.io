@@ -8,13 +8,13 @@ events:
     signup: "https://forms.gle/v3Udjnb8oYYvdxvi7"
     upcoming: n
 
- - title: "General Purpose Office Hours - Monthly"
+  - title: "General Purpose Office Hours - Monthly"
     attendees: ""
     summary: "These monthly office hours can be a chance for prospective students and applicants to ask questions, or for advice, about all things PhD, giving students more opportunities to ask questions more pertinent to their own experiences and concerns."
     date: "First Week of April"
     upcoming: y
     
-  - title: "Gaining Research Experience"
+  - title: "Demystifying Computer Science Research Experiences"
     attendees: ""
     summary: "This panel will be aimed at undergraduates and prospective PhD applicants, who are curious about how to get research assistantships/internships/REUs, how current PhD students got to where they're at now, etc."
     date: "April"
