@@ -12,6 +12,7 @@ events:
     attendees: ""
     summary: "These monthly office hours can be a chance for prospective students and applicants to ask questions, or for advice, about all things PhD, giving students more opportunities to ask questions more pertinent to their own experiences and concerns."
     date: "April 6, 2-4PM ET (1-3PM CT / 11-1PM PT)"
+    notes: "https://docs.google.com/document/d/1QcV4ZS1xmqFUOQGNRO9umcYjh4Ddpt5LRhHZLJ7v9Fw/edit?usp=sharing"
     upcoming: y
     
   - title: "Demystifying Computer Science Research Experiences"
