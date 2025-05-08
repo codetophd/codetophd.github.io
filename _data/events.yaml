@@ -20,12 +20,19 @@ events:
     summary: "This panel will be aimed at undergraduates and prospective PhD applicants, who are curious about how to get research assistantships/internships/REUs, how current PhD students got to where they're at now, etc. See the event notes for the Zoom link and more details."
     date: "April 29, 8pm ET (7pm CT / 5pm PT)"
     notes: "https://docs.google.com/document/d/1eMS24fJVu--qCuJJyp_QUKJC1XjUjuJkBoB2NzLherA/edit?usp=sharing"
-    upcoming: y
+    upcoming: n
 
   - title: "General Purpose Office Hours - May"
     attendees: ""
     summary: "These monthly office hours can be a chance for prospective students and applicants to ask questions, or for advice, about all things PhD, giving students more opportunities to ask questions more pertinent to their own experiences and concerns. See the event notes for the Zoom link and more details."
     date: "May 4, 2-4PM ET (1-3PM CT / 11-1PM PT)"
+    notes: "https://docs.google.com/document/d/1QcV4ZS1xmqFUOQGNRO9umcYjh4Ddpt5LRhHZLJ7v9Fw/edit?usp=sharing"
+    upcoming: n
+
+  - title: "General Purpose Office Hours - June"
+    attendees: ""
+    summary: "These monthly office hours can be a chance for prospective students and applicants to ask questions, or for advice, about all things PhD, giving students more opportunities to ask questions more pertinent to their own experiences and concerns. See the event notes for the Zoom link and more details."
+    date: "June 1, 2-4PM ET (1-3PM CT / 11-1PM PT)"
     notes: "https://docs.google.com/document/d/1QcV4ZS1xmqFUOQGNRO9umcYjh4Ddpt5LRhHZLJ7v9Fw/edit?usp=sharing"
     upcoming: y
 
