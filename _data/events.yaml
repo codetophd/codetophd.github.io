@@ -4,6 +4,7 @@ events:
     attendees: ""
     summary: "This panel will be aimed at incoming PhD students who may be nervous about the start of their program or have questions they'd like to ask to current students about navigating their first-year."
     date: "August 11, 7PM ET (6PM CT / 4PM PT)"
+    notes: "https://docs.google.com/document/d/19sxyZrMBZK4uA3PrPxd4z5mQPs6YBpZb8hJSKIZAnXk/edit?usp=sharing"
     upcoming: y
 
   - title: "1-1 Application Review Office Hours"
