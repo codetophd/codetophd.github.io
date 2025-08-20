@@ -1,12 +1,12 @@
 events:
-
-  - title: "Navigating First-year of PhD"
+    
+  - title: "Application Support Program - Mentee Application Opens"
     attendees: ""
-    summary: "This panel will be aimed at incoming PhD students who may be nervous about the start of their program or have questions they'd like to ask to current students about navigating their first-year."
-    date: "August 11, 7PM ET (6PM CT / 4PM PT)"
-    notes: "https://docs.google.com/document/d/19sxyZrMBZK4uA3PrPxd4z5mQPs6YBpZb8hJSKIZAnXk/edit?usp=sharing"
+    summary: "Mentee applications for our Graduate Application Support Program will open. This program enables applicants to get 1-1 application feedback and mentorship from a current PhD student."
+    date: "End of August"
+    mapp: "https://docs.google.com/forms/d/e/1FAIpQLSeEpPWYDzT0WPhNQgeI6SaierU-ZyCBu-CFO1LQFUBnzZJgdA/viewform?usp=sharing&ouid=102224710582862974401"
     upcoming: y
-
+    
   - title: "1-1 Application Review Office Hours"
     attendees: "w/ PhD students from UChicago."
     summary: "These monthly office hours are an opportunity for students to receive 1-1 personalized advice and feedback on their application materials. These office hours are by sign up only. See the Event Notes for more details on how to sign up."
@@ -14,11 +14,12 @@ events:
     notes: "https://docs.google.com/document/d/1QcV4ZS1xmqFUOQGNRO9umcYjh4Ddpt5LRhHZLJ7v9Fw/edit?usp=sharing"
     upcoming: y
     
-  - title: "Application Support Program - Mentee Application Opens"
+  - title: "Navigating First-year of PhD"
     attendees: ""
-    summary: "Mentee applications for our Graduate Application Support Program will open. This program enables applicants to get 1-1 application feedback and mentorship from a current PhD student."
-    date: "End of August"
-    upcoming: y
+    summary: "This panel will be aimed at incoming PhD students who may be nervous about the start of their program or have questions they'd like to ask to current students about navigating their first-year."
+    date: "August 11, 7PM ET (6PM CT / 4PM PT)"
+    notes: "https://docs.google.com/document/d/19sxyZrMBZK4uA3PrPxd4z5mQPs6YBpZb8hJSKIZAnXk/edit?usp=sharing"
+    upcoming: n
 
   - title: "General Purpose Office Hours - June"
     attendees: "w/ PhD students from Columbia and UChicago."
