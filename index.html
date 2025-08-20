@@ -59,6 +59,10 @@ title: Home
               <a class="button" href="{{ event.notes }}" target="_blank">Event Notes</a>
             {% endif %}
 
+            {% if event.mapp %}
+              <a class="button" href="{{ event.notes }}" target="_blank">Mentee Application</a>
+            {% endif %}
+
              <hr style="border-top: dotted 1px; background-color: transparent" />
           </div>
         </div>
@@ -85,6 +89,10 @@ title: Home
               <a class="button" href="{{ event.notes }}" target="_blank">Event Notes</a>
             {% endif %}
 
+            {% if event.mapp %}
+              <a class="button" href="{{ event.notes }}" target="_blank">Mentee Application</a>
+            {% endif %}
+
              <hr style="border-top: dotted 1px; background-color: transparent" />
           </div>
         </div>
@@ -107,6 +115,10 @@ title: Home
 
             {% if event.notes %}
               <a class="button" href="{{ event.notes }}" target="_blank">Event Notes</a>
+            {% endif %}
+
+            {% if event.mapp %}
+              <a class="button" href="{{ event.notes }}" target="_blank">Mentee Application</a>
             {% endif %}
           
              <hr style="border-top: dotted 1px; background-color: transparent" />
