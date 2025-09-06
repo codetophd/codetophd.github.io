@@ -11,6 +11,12 @@ projects:
     url: "projects/2025_demystify_research.html"
     selected: y
 
+  - title: ""
+    subtitle: ""
+    thumbnail: "assets/blogs/2025_navigate_first_year/thumbnail.jpg"
+    url: "projects/2025_navigate_first_year.html"
+    selected: y
+
   # - title: "Detecting Network Effects"
   #   subtitle: "Randomizing Over Randomized Experiments"
   #   thumbnail: "assets/projects/2016_network-ab/thumbnail.jpg"
