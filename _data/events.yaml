@@ -1,18 +1,18 @@
 events:
-    
-  - title: "Application Support Program - Mentee Application Open!"
-    attendees: ""
-    summary: "The mentee application for our PhD Application Support Program is now open! This program enables applicants to get 1-1 application feedback and mentorship from a current PhD student."
-    date: "Deadline: September 17, 2025"
-    mapp: "https://docs.google.com/forms/d/e/1FAIpQLSeEpPWYDzT0WPhNQgeI6SaierU-ZyCBu-CFO1LQFUBnzZJgdA/viewform?usp=sharing&ouid=102224710582862974401"
-    upcoming: y
-    
+
   - title: "1-1 Application Review Office Hours"
     attendees: "w/ PhD students from UChicago."
     summary: "These monthly office hours are an opportunity for students to receive 1-1 personalized advice and feedback on their application materials. These office hours are by sign up only. See the Event Notes for more details on how to sign up."
     date: "Second Week of Every Month"
     notes: "https://docs.google.com/document/d/1QcV4ZS1xmqFUOQGNRO9umcYjh4Ddpt5LRhHZLJ7v9Fw/edit?usp=sharing"
     upcoming: y
+    
+  - title: "Application Support Program - Mentee Application Open!"
+    attendees: ""
+    summary: "The mentee application for our PhD Application Support Program is now open! This program enables applicants to get 1-1 application feedback and mentorship from a current PhD student."
+    date: "Deadline: September 17, 2025"
+    mapp: "https://docs.google.com/forms/d/e/1FAIpQLSeEpPWYDzT0WPhNQgeI6SaierU-ZyCBu-CFO1LQFUBnzZJgdA/viewform?usp=sharing&ouid=102224710582862974401"
+    upcoming: n
     
   - title: "Navigating First-year of PhD"
     attendees: ""
