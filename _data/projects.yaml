@@ -1,14 +1,20 @@
 projects:
   - title: ""
     subtitle: ""
-    thumbnail: "assets/blogs/2025_visit_day/thumbnail.jpg"
-    url: "projects/2025_visit_day.html"
+    thumbnail: "assets/blogs/application_resources/thumbnail.png"
+    url: "projects/application_resources.html"
     selected: y
 
   - title: ""
     subtitle: ""
     thumbnail: "assets/blogs/2025_demystify_research/thumbnail.jpg"
     url: "projects/2025_demystify_research.html"
+    selected: y
+
+  - title: ""
+    subtitle: ""
+    thumbnail: "assets/blogs/2025_visit_day/thumbnail.jpg"
+    url: "projects/2025_visit_day.html"
     selected: y
 
   - title: ""
